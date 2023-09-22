@@ -47,6 +47,7 @@ button{
     border: 0;
     outline: 0;
     cursor: pointer;
+    transition: background 0.5s;
 }
 button span{
     display: block;
@@ -55,6 +56,8 @@ button span{
     width: 26px;
     border-radius: 50%;
     margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+
 }
 .lamp-container{
     position: relative;
@@ -113,4 +116,12 @@ button span{
     border-radius: 4px;
     background: #00986f;
     display: block;
+}
+.active{
+    background: green;
+}
+.active span{
+    background: white;
+    margin-left: 31px;
+
 }
