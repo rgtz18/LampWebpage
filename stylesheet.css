@@ -75,6 +75,7 @@ button span{
     transform: translateX(-50%);
     width: 700px;
     margin-left: -10px;
+    opacity: 0;
 }
 .text-container{
     max-width: 600px;
